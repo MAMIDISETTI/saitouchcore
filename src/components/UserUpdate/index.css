@@ -1,0 +1,77 @@
+.user-container {
+  background-color: #ffffff;
+  height: 400px;
+  border-radius: 15px;
+  width: 250px;
+}
+@media screen and (min-width: 600px) {
+  .user-container {
+    display: none;
+  }
+}
+
+.notification {
+  text-align: right;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+.update-head {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-left: 20px;
+}
+.update-para {
+  font-size: 9px;
+  margin-left: 20px;
+}
+.age-container {
+  display: flex;
+  margin-left: 20px;
+}
+.age {
+  font-size: 15px;
+  font-weight: bold;
+}
+.under {
+  display: flex;
+  margin-left: 20px;
+
+  justify-content: center;
+  align-items: center;
+}
+.under-head {
+  font-size: 15px;
+}
+.strategy-container {
+  background-color: #f5f0e4;
+  padding: 20px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.ret-heading {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.emp-head {
+  font-size: 13px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-top: 20px;
+}
+.cont {
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  width: 100%;
+  height: 50px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  border: none;
+  background-color: blue;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}

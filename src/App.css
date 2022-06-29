@@ -1,0 +1,356 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mobile-view {
+  background-color: #d6d2c7;
+  padding: 50px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+@media screen and (min-width: 600px) {
+  .mobile-view {
+    display: none;
+  }
+}
+@media screen and (max-width: 599px) {
+  .desktop-view {
+    display: none;
+  }
+}
+
+.sample2 {
+  margin-top: 60px;
+}
+
+.sample1 {
+  margin-top: 150px;
+}
+
+.sample {
+  margin-top: 0px;
+}
+
+.desktop-container {
+  background-color: #f5f0e4;
+  padding: 50px;
+  border-radius: 30px;
+  width: 250;
+  display: flex;
+}
+.desktop-icon-containers {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-right: 30px;
+}
+.icons {
+  margin-top: 40px;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  padding: 25px;
+}
+.profile-image {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+}
+.profile-heading {
+  font-size: 18px;
+  color: #12022f;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+.profile {
+  margin-left: 12px;
+}
+.profile-para {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #594d6d;
+  margin: 0px;
+}
+.details-container {
+  border-radius: 10px;
+  padding: 25px;
+  margin-top: 10px;
+}
+.detail-p {
+  font-size: 10px;
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+.detail-h {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+
+.detail-para {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  margin-top: 8px;
+}
+.heading-detail {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-bottom: 8px;
+}
+.para-detail {
+  font-size: 10px;
+  font-weight: 300;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+.detail-another {
+  margin-left: 50px;
+}
+.button-container {
+  text-align: center;
+  margin-top: 15px;
+}
+.button {
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  border: none;
+  background-color: blue;
+}
+.transactions-container {
+  border-radius: 10px;
+  padding: 25px;
+  margin-top: 15px;
+}
+.transaction-head {
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.transactions-para {
+  font-size: 10px;
+  font-family: 'Roboto';
+  margin: 0px;
+  margin-top: 20px;
+}
+.transactions-heading {
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin: 0px;
+  margin-bottom: 40px;
+}
+
+.home {
+  background-color: blue;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.desktop-container1 {
+  width: 300px;
+  background-color: #ffffff;
+}
+.desktop-container2 {
+  background-color: #ffffff;
+  padding: 30px;
+  width: 450px;
+}
+
+.income-retirement {
+  font-size: 10px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: blue;
+}
+.income-year {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+.heading-container {
+  margin-top: 20px;
+}
+.income-heading {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+.goal {
+  font-size: 10px;
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
+.heading-per {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.para-goa {
+  font-size: 10px;
+  font-weight: 300;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+.hori {
+  width: 40%;
+}
+.hori-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.dot {
+  font-size: 20px;
+}
+.icon-square-container {
+  display: flex;
+  justify-content: space-between;
+}
+.icon-square {
+  color: blue;
+  margin-bottom: 8px;
+  font-size: 10px;
+}
+.icon-squares {
+  color: #458af7;
+  font-size: 10px;
+  margin-bottom: 8px;
+}
+.icon-square1 {
+  color: #89b0f0;
+  font-size: 10px;
+  margin-bottom: 8px;
+}
+.emp-head {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-top: 8px;
+}
+.emp-para {
+  font-size: 10px;
+  font-weight: 300;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+.icon-containers {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.home {
+  background-color: blue;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+/* kjskdfkd */
+
+.desktop-user-container {
+  background-color: #f5f0e4;
+  height: 400px;
+  border-radius: 15px;
+  width: 250px;
+  padding: 20px;
+}
+
+.strategys-container {
+  padding: 20px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.rets-heading {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.emps-head {
+  font-size: 13px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-top: 20px;
+}
+.conts {
+  display: flex;
+  justify-content: space-between;
+}
+.btns {
+  width: 100%;
+  height: 50px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  border: none;
+  background-color: blue;
+  border-radius: 15px;
+}
+.held-dec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.help-head {
+  color: blue;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+.desk-hori {
+  display: flex;
+}
+.desk-head-h {
+  margin-left: 30px;
+}
+.desk-h-he {
+  font-size: 10px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-top: 10px;
+}
+.desk-h-hes {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+.desk-p {
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+.held-decs {
+  display: flex;
+  align-items: ;
+}

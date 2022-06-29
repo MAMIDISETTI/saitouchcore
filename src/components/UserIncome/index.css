@@ -1,0 +1,116 @@
+.container2 {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  width: 250px;
+}
+@media screen and (min-width: 600px) {
+  .container2 {
+    display: none;
+  }
+}
+
+.notification {
+  text-align: right;
+}
+.icon-con {
+  width: 20px;
+  height: 20px;
+}
+.income-retirement {
+  font-size: 10px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: blue;
+}
+.income-year {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+.heading-container {
+  margin-top: 20px;
+}
+.income-heading {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+.goal {
+  font-size: 10px;
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
+.heading-per {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.para-goa {
+  font-size: 10px;
+  font-weight: 300;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+.hori {
+  width: 40%;
+}
+.hori-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.dot {
+  font-size: 20px;
+}
+.icon-square-container {
+  display: flex;
+  justify-content: space-between;
+}
+.icon-square {
+  color: blue;
+  margin-bottom: 8px;
+  font-size: 10px;
+}
+.icon-squares {
+  color: #458af7;
+  font-size: 10px;
+  margin-bottom: 8px;
+}
+.icon-square1 {
+  color: #89b0f0;
+  font-size: 10px;
+  margin-bottom: 8px;
+}
+.emp-head {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-top: 8px;
+}
+.emp-para {
+  font-size: 10px;
+  font-weight: 300;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+.icon-containers {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.home {
+  background-color: blue;
+  color: #ffffff;
+  border-radius: 5px;
+}
